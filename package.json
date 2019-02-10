@@ -1,0 +1,20 @@
+{
+  "name": "authvault-jwt-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-grade stateless authentication microservice with access/refresh token rotation, role-based access control (RBAC), and brute-force protection.",
+  "author": "Wajid Raza <wajidrazapk@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "clsx": "^2.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
